@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cats And Dogs By Breeds</string>
+    <string name="text_dogsbreeds_fragment_title">Seleccione una Raza de Perrito</string>
+    <string name="text_catsbreeds_fragment_title">Seleccione una Raza de Gatitos</string>
+</resources>

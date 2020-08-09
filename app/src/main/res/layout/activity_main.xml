@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/main_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit API Test"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/main_layout_button"/>
+
+    <LinearLayout
+        android:id="@+id/main_layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/main_button_perritos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perritos"
+            android:layout_marginBottom="8dp"
+            android:minHeight="88dp"/>
+
+        <Button
+            android:id="@+id/main_button_gatitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gatitos"
+            android:minHeight="88dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
