@@ -1,4 +1,4 @@
-# Cast And Dogs By Breeds
+# Cats And Dogs By Breeds
 
 Just a Simple Exercise App testing Retrofit API calls to public services
 
